@@ -1,0 +1,404 @@
+#tx {
+    text-align: center;
+    /* font-size: 5vh; */
+    font-size: 50px;
+    font-family: FedraSans_Alt_Pro_Demi;
+    overflow: hidden;
+    width: 90%;
+    height: 81%;
+    margin: 0 auto;
+    user-select: none;
+    padding: 4% 20px 0px 20px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    background-color: #ECC9A9;
+    user-select: none;
+}
+
+.num {
+    font-size: 6.8vw;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: FedraSans_Alt_Pro_Demi;
+    color: #ecc9a9;
+    position: absolute;
+}
+
+#num1 {
+    left: 6%;
+    top: 3%;
+}
+
+#num2 {
+    left: 50%;
+    top: 20%
+}
+
+#num3 {
+    left: 6%;
+    top: 69%;
+}
+
+#num4 {
+    left: 60%;
+    top: 80%;
+}
+
+.tutorialText1 {
+    font-size: 3.8vw;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: FedraSans_Alt_Pro_Demi;
+    color: #ecc9a9;
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    color: white;
+}
+
+#tuttextref {
+    color: #ffffff;
+    background-color: #e1bdb4;
+    border-radius: 10.031px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.tutorialText2 {
+    font-size: 2.8vw;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: FedraSans_Alt_Pro_Demi;
+    color: #ecc9a9;
+    position: absolute;
+    left: 11%;
+    top: 76%;
+    color: white;
+}
+
+#expbtn{
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 16px;
+    left: 10%;
+    top: 95%;
+    transform: translate(0.5%, -100%) rotate(0);
+    z-index: 5;
+    padding: 5px;
+}
+
+#expbtnDeco {
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 16px;
+    left: 10%;
+    top: 95%;
+    transform: translate(0.5%, -100%) rotate(0);
+    z-index: 5;
+    padding: 5px;
+}
+
+#ar1 {
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    left: 25%;
+    top: 19%;
+    display: none;
+}
+
+#ar2 {
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    left: 57%;
+    top: 20%;
+    transform: scaleX(-1) rotate(121deg);
+}
+
+#ar3 {
+    width: 20vh;
+    height: 15vh;
+    position: absolute;
+    left: 16%;
+    top: 80%;
+    transform: scaleX(1) rotate(5deg);
+}
+
+#btnBlick {
+    /* height: 15vh; */
+    position: absolute;
+    /* left: 65%; */
+    /* top: 70%; */
+    transform: scaleX(1) rotate(0deg);
+    width: 100%;
+    height: 100%;
+}
+
+#expbtn:hover {
+    background: #ffdad1;
+    transform: translate(0.5%, -95%);
+}
+
+#expimg {
+    width: 100%;
+    height: 100%;
+}
+
+
+#expimgDeco {
+    width: 100%;
+    height: 100%;
+}
+
+#startBtn{
+    background-color: #ffffff;
+    width: 80%;
+    height: 60%;
+    /* margin: auto auto auto auto; */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#startBtn:hover{
+    background-color: #ffdad1;
+    bottom: 2px;
+}
+
+
+#tutorial {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    background-color: #41545fd6;
+    z-index: 5;
+}
+#tutTextRef{
+    color: #ffffff;
+    background-color: #e1bdb4;
+    border-radius: 10.031px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#dummyDiv1 {
+    height: 60%;
+    width: 80%;
+    position: absolute;
+    background: #4A647A;
+    border-radius: 50px;
+    border-top-left-radius: 300px;
+    border-color: #808FA1;
+    border-width: 4px;
+    border-style: solid;
+}
+
+#dummyDiv2 {
+    height: 57%;
+    width: 78%;
+    position: absolute;
+    background: #808FA1;
+    border-radius: 50px;
+    border-color: #A1AAB8;
+    border-width: 4px;
+    border-style: solid;
+}
+
+#mainDiv {
+    height: 63.3%;
+    width: 83.2%;
+    position: absolute;
+    background: #FAFCFC;
+    border-radius: 50px;
+    border-color: #4A647A;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.top {
+    left: 50%;
+    top: 50%;
+    transform: translate(-44%, -47%) rotate(3.18deg);
+    z-index: 1;
+}
+
+.center {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.bottom {
+    left: 50%;
+    top: 50%;
+    transform: translate(-56.5%, -60%) rotate(-5.58deg);
+    z-index: 0;
+}
+
+.space {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #e1bdb4;
+    border-radius: 10.031px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.space:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #d8b7b2;
+    border-radius: 10.031px;
+}
+
+a:link {
+    color: #010057;
+}
+
+/* visited link */
+a:visited {
+    color: #010057;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffffff;
+}
+
+/* selected link */
+a:active {
+    color: #06ff7c;
+}
+
+ol {
+    list-style-type : none;
+    padding : inherit;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font: 200 20px/1.5 FedraSans_Alt_Pro_Demi;
+    margin: 0 0 5px 0;
+    background-color: #808fa1;
+    border-radius: 9.285px;
+    border-width: 2px; !important;
+    border-color: #000000; !important;
+    border-style: solid; !important;
+}
+
+
+li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+  /*  width: 200px;*/
+
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    padding: 0px 8px 0px 8px;
+}
+
+li a:hover {
+    font-size: 22px;
+    background: #c5534e;
+    border-radius: 9.285px;
+}
+
+.tippy-tooltip {
+    min-width: 200px;
+}
+
+.resize {
+    width: 100%;
+    height: 100%;
+    color: #000;
+    float: left;
+    font-size: 15px !important;
+}
+
+@font-face {
+    font-family: FederaSans_book_italic;
+    src: url("./../assets/fonts/FSerProA-BookItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: FederaSans_Arm_Bold;
+    src: url("./../assets/fonts/FedraSansAltPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: FedraSans_Alt_Pro_Medium;
+    src: url("./../assets/fonts/FedraSansAltPro-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: FedraSans_Alt_Pro_Light;
+    src: url("./../assets/fonts/FedraSansAltPro-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: FedraSans_Alt_Pro_Demi;
+    src: url("./../assets/fonts/FedraSansAltPro-Demi.otf") format("opentype");
+}
+
+@font-face {
+    font-family: FedraSans_A_Demi;
+    src: url("./../assets/fonts/FSerProA-Demi.otf") format("opentype");
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.tippy-tooltip {
+    background-color: transparent;
+}

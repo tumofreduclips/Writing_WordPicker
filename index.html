@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Writing test</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
+    <script src="plugins/w3-colors.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body onresize="recalculateUI()">
+        <div id="container">
+            <div id="dummyDiv1" class="top"></div>
+            <div id ="mainDiv" class="resize center">
+                <p id = "tx"></p>
+               <!-- <div class="loader"></div> -->
+            </div>
+            <div id="dummyDiv2" class="bottom"></div>
+            <div id="expbtn">
+                <img src="assets/images/exportbtn.png" id = "expimg" onclick="generateKey()"/>
+            </div>
+        </div>
+        <div id="tutorial">
+
+            <div class="tippy-popper" id="tippy-1" role="tooltip" tabindex="-1" x-placement="bottom" style="z-index: 9999;visibility: visible;transition-duration: 0ms;position: absolute;will-change: transform;top: 34%;left: 65%;/* transform: translate3d(222%, 35%, 0px); */">
+                <div style="
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    pointer-events: none;"></div>
+
+
+                <div class="tippy-tooltip light-theme" data-size="regular" data-animation="shift-away" data-state="visible" data-interactive="" x-placement="bottom" style="max-width: 350px; transition-duration: 325ms; bottom: 0px;"><div class="tippy-arrow" style="left: 106px;"></div><div class="tippy-content" data-state="visible" style="transition-duration: 325ms;"><ol><li><a onclick="">try</a></li><li style="
+    background-color: #c5534e;
+"><a>to choose</a></li><li><a onclick="">the</a></li><li><a onclick="">right word</a></li></ol></div></div></div>
+
+
+            <h3 id="num1" class="num">1</h3>
+            <h3 id="num2" class="num">2</h3>
+            <h3 id="num3" class="num">3</h3>
+            <h3 id="num4" class="num">4</h3>
+            <p class="tutorialText1">Click <a id="tutTextRef">_________</a> and choose the word</p>
+            <p class="tutorialText2">Copy to clipboard</p>
+            <img src="assets/images/arrow1.png" id="ar1"/>
+            <img src="assets/images/arrow1.png" id="ar2"/>
+            <img src="assets/images/arrow2.png" id="ar3"/>
+            <div style="
+                    height: 15vh;
+                    width: 30vh;
+                    position: absolute;
+                    left: 66%;
+                    top: 79%;
+                    transform: scaleX(1) rotate(0deg);
+            ">
+                <img src="assets/images/buttonblicks.png" id="btnBlick"/>
+                <div id="startBtn" onclick="closeTutorial()">
+                    <h3 id="startTx" style="display: block; font-family: FedraSans_Alt_Pro_Demi;font-size: 3vw;color: #c5534e;">Start</h3>
+                </div>
+            </div>
+            <div id="expbtnDeco">
+                <img src="assets/images/exportbtn.png" id = "expimgDeco"/>
+
+            </div>
+        </div>
+    <script src="src/tools.js"></script>
+    <script src="src/data.js"></script>
+    <script src="src/main.js"></script>
+</body>
+</html>
