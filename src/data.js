@@ -5,10 +5,10 @@ var data = [
     {
         text : [
             "Then was the fear a little quieted. That in my heart’s lake had ",
-            "\n The night, Աշոտ I had passed so ",
+            "\n The night, I had passed so ",
             "\nAnd even as he, ",
             ", with distressful breath,",
-            " upon the shore Then was the fear a little quieted. That in my heart’s lake had Then was the fear a little quieted. That in my heart’s lake had Then was the fear a little quieted. That in my heart’s lake had Then was the fear a little quieted. That in my heart’s lake had Then was the fear a little quieted. That in my heart’s lake had"
+            " upon the shore Then was the fear a little quieted."
         ],
         values : [
             {
